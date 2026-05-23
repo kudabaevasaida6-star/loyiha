@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:#f8f8f8;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+header{
+    width:100%;
+    background:#fff;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 2px 15px rgba(0,0,0,.05);
+}
+
+.navbar{
+    height:85px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:24px;
+    font-weight:700;
+    color:#5b2be0;
+}
+
+nav{
+    display:flex;
+    gap:35px;
+}
+
+nav a{
+    color:#333;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#5b2be0;
+}
+
+.nav-btn{
+    padding:12px 28px;
+    border:none;
+    border-radius:40px;
+    background:#5b2be0;
+    color:#fff;
+    cursor:pointer;
+    transition:.3s;
+    font-weight:600;
+    text-decoration: none;
+}
+
+.nav-btn:hover{
+    transform:scale(1.05);
+}
+
+
+.container {
+  width: 350px;
+  padding: 40px 25px 25px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #5b2be0,#fff,#5b2be0); 
+}
+
+
+.input{
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: none;
+  background: #334155;
+  color: white;
+}
+
+.btm {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(135deg, #f8f8f8,#5b2be0);
+  color: white;
+  cursor: pointer;
+}
+.h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.aa{
+    text-decoration: none;
+    color: #ffffff;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(135deg, grey, white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
